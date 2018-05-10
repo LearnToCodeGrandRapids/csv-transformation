@@ -31,9 +31,9 @@ CsvTransformation.exe --input-file=C:\Data\Input.csv --output-file=C:\Data\Outpu
 * Read the input file
 * Parse each record
 * Perform the data transformation
-** Parse the `Name` field into `FirstName` and `LastName`
-** Convert the `AmountDue` field from cents to dollars
-** Convert the date to YYYY-MM-DD format
+    * Parse the `Name` field into `FirstName` and `LastName`
+    * Convert the `AmountDue` field from cents to dollars
+    * Convert the date to YYYY-MM-DD format
 * Write the resulting records to the output file
 
 ### Considerations
